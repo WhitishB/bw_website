@@ -1,0 +1,50 @@
+/*
+   Brandon Whitish Baritone 
+   Author: Brandon Whitish 
+   Date:  12.17.17
+
+   Filename: bwb.css
+
+*/
+@font-face {
+	font-family: neoteric;
+	src: url(fonts/Neoteric.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: fox;
+  src: url(fonts/Brown_Fox.ttf);
+}
+/* header stuff */
+header {
+	text-align: left;
+  font-family: fox;
+  font-size: 200%;
+  font-variant: small-caps;
+}
+.header a {
+    color: black;
+  text-decoration: none;
+}
+
+/* General Navigation List Style */
+.nav{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.nav li{
+  list-style: none;
+  float: right;
+}
+.nav a{
+    display: block;
+    padding:14px 19px;
+    text-decoration: none;
+    font-family: neoteric;
+    color: black
+}
+.nav a:hover {
+  color: #C1C1C1;
+
+}
